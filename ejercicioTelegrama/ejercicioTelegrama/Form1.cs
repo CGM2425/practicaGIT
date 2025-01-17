@@ -16,6 +16,11 @@ namespace ejercicioTelegrama
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 private void btnCalcularPrecio_Click(object sender, EventArgs e)
@@ -25,6 +30,7 @@ private void btnCalcularPrecio_Click(object sender, EventArgs e)
     int numPalabras = 0;
     double coste;
     string vqr;
+    string variableUsuario2;
     //Leo el telegrama
     textoTelegrama = txtTelegrama.Text;
     // telegrama urgente?
