@@ -51,11 +51,11 @@ namespace ejercicioTelegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 3; // Cambiado a 3 euros para menos de 10 palabras
                 }
                 else
                 {
-                    coste = 2.5 + 0.5 * (numPalabras - 10);
+                    coste = 6; // Cambiado a 6 euros para más de 10 palabras
                 }
             }
             else if (tipoTelegrama == 'u') // Telegrama urgente
@@ -72,10 +72,11 @@ namespace ejercicioTelegrama
 
             // Mostrar el coste en el cuadro de texto
             txtPrecio.Text = $"{coste:F2} euros"; // Formato con dos decimales
-            
+
+
         }
 
-        
+
     }
 }
 
