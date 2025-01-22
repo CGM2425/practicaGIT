@@ -21,6 +21,11 @@ namespace ejercicioTelegrama
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 private void btnCalcularPrecio_Click(object sender, EventArgs e)
